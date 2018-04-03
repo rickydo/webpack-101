@@ -1,3 +1,6 @@
+import App from "./App";
+import style from "./main.css"
+
 console.log('Hellow from index.js');
 const arr = [1, 2, 3];
 const iAmJavascriptES6 = () => console.log(...arr);
