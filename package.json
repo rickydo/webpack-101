@@ -1,0 +1,28 @@
+{
+  "name": "webpack-101",
+  "version": "1.0.0",
+  "description": "webpack project starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production ./src/index.js --output ./dist/main.js",
+    "dev": "webpack --mode development ./src/index.js --output ./dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickydo/webpack-101.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rickydo/webpack-101/issues"
+  },
+  "homepage": "https://github.com/rickydo/webpack-101#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  }
+}
